@@ -1,4 +1,4 @@
-def get_dec(num, dec_nums, digit=1):
+def get_dec(num: int, dec_nums: list, digit=1):
     if digit > 10:
         return
 
@@ -13,7 +13,7 @@ def get_dec(num, dec_nums, digit=1):
 
 n = int(input())
 dec_nums = []
-
+r = []
 for num in range(10):
     r = get_dec(num, dec_nums)
 
